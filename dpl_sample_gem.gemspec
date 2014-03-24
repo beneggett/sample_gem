@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'sample_gem/version'
+require 'dpl_sample_gem/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "dpl_sample_gem"
-  spec.version       = SampleGem::VERSION
+  spec.version       = DplSampleGem::VERSION
   spec.authors       = ["Ben Eggett"]
   spec.email         = ["beneggett@gmail.com"]
   spec.summary       = %q{Sample gem for teaching}

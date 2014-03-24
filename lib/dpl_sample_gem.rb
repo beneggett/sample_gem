@@ -1,6 +1,6 @@
-require "sample_gem/version"
+require "dpl_sample_gem/version"
 require 'ffaker'
-module SampleGem
+module DplSampleGem
   class Base
     def hipster_me
       Faker::HipsterIpsum.phrase
