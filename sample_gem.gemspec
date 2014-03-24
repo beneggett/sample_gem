@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'sample_gem/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "sample_gem"
+  spec.name          = "dpl_sample_gem"
   spec.version       = SampleGem::VERSION
   spec.authors       = ["Ben Eggett"]
   spec.email         = ["beneggett@gmail.com"]
